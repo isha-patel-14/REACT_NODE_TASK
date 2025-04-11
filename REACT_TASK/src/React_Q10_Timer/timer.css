@@ -1,0 +1,29 @@
+.timer-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.timer-buttons {
+  margin-top: 20px;
+}
+
+.start-btn,
+.stop-btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.stop-btn {
+  background-color: #dc3545;
+  color: white;
+}

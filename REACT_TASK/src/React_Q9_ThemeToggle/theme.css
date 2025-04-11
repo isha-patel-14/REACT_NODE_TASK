@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.light {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+}
+
+.theme-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.theme-btn:hover {
+  background-color: #0056b3;
+}
