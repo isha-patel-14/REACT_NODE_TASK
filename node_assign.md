@@ -36,6 +36,10 @@ console.log(`Server running at http://localhost:${port}`);
 }); 
 ```
 
+```
+npm install express
+```
+
 ### Q-5. Create a POST API that takes two numbers and returns their sum. 
 ```
 const express = require("express"); 
@@ -161,6 +165,10 @@ console.log("Connected to MongoDB");
 }); 
 ```
 
+```
+npm install mongoose
+```
+
 ### Q-13. Write a function to hash a password using bcrypt. 
 ```
 const bcrypt = require("bcrypt"); 
@@ -170,6 +178,10 @@ bcrypt.hash(password, saltRounds, (err, hash) => {
 if (err) throw err; 
 console.log("Hashed password:", hash); 
 }); 
+```
+
+```
+npm install bcrypt
 ```
 
 ### Q-14. Implement a basic JWT authentication system for an API. 
@@ -196,3 +208,7 @@ app.listen(port, () => {
 console.log(‘Server running at http://localhost:3000’); 
 });
 ``` 
+
+```
+npm install jsonwebtoken
+```
